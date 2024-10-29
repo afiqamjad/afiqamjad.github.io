@@ -1,3 +1,9 @@
+body {
+  background-image: url("./images/DSCF3600-80.jpg");
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.55);
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
