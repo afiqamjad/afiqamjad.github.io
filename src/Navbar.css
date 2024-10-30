@@ -1,12 +1,11 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: aquamarine;
 }
 
 .navbar-left {
     display: flex;
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 2rem;
     align-items: center;
 }
 
@@ -24,11 +23,23 @@
     justify-content: space-evenly;
 }
 
-.link {
-    margin: 1rem;
+.logo {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: xx-large;
+    letter-spacing: 0.1rem;
 }
 
-a, a:hover, a:focus, a:active {
+.link {
+    margin: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a, a:focus, a:active {
     text-decoration: none;
-    color: black;
+    color: #f2f0ef
+}
+
+a:hover {
+    text-decoration: none;
+    color: #949392
 }
