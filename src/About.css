@@ -26,3 +26,22 @@
     box-shadow: -17px 20px 12px 2px rgb(0, 0, 0);
 
 }
+
+@media screen and (max-width: 500px) {
+    .about {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .aboutMe {
+        font-size: small;
+        width: 95%;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .profpic {
+        height: 17rem;
+        width: 12rem;
+    }
+}
