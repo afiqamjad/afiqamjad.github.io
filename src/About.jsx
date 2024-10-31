@@ -4,7 +4,15 @@ import './About.css'
 const About = () => {
     return (
         <div className='about'>
-            <h2 className='aboutMe'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi posuere pretium nisl eget iaculis. Fusce ac porta tellus, sit amet mattis urna. In id rutrum lectus. Aliquam consequat neque aliquam dignissim dapibus. Vestibulum lacus urna, laoreet ut erat quis, volutpat sodales orci. Etiam ex nunc, malesuada et eros ut, elementum rutrum leo. Suspendisse tincidunt at arcu sed dictum. Integer suscipit nulla vel facilisis iaculis. Praesent laoreet non libero in mattis. Sed a arcu sit amet diam laoreet bibendum vulputate vitae sem. Cras sodales justo tortor, nec dictum nibh pretium a. Nulla porttitor mauris orci, quis commodo nulla maximus at. Donec ultrices libero sed justo lobortis efficitur. Vivamus feugiat dolor quis odio auctor imperdiet. Aliquam blandit sagittis lectus nec porta. Quisque ligula odio, vestibulum a ex ac, finibus accumsan odio</h2>
+            <div className='aboutMe'>
+            <p className='aboutP'>  Hi, I’m Afiq Amjad! I’m currently a senior at Boston University majoring in Computer Science. My interest lies in front-end web development--particularly in creating sleek, responsive, and accessible applications. I am most comfortable with React, CSS, HTML, JavaScript; with experience in using Node.js and Express. </p>
+
+            <p className='aboutP'> Outside of coding, I am passionate about photography. I capture in both 35mm film and digital, using an Olympus OM-2 as well as a Fujifilm XT-20. I like to challenge myself in capturing pictures that evoke nostalgia and serenity, playing mainly with composition and color.
+
+            </p>
+
+            <p className='aboutP'>Check out my CS and photography projects to see what I’ve done in the past!</p>
+            </div>
             <div className='profpic'>
             </div>
         </div>

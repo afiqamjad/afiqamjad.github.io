@@ -7,12 +7,17 @@
     background-color: #161515;
 }
 
-.aboutMe {
-    color: #f2f0ef;
-    text-wrap:pretty;
+.aboutMe{
     width: 45%;
+}
+
+.aboutP{
+    color: #f2f0ef;
+    font-weight:700;
+    text-wrap:pretty;
     font-size:large;
     text-shadow: -8px 5px rgb(0, 0, 0);
+
 }
 
 .profpic {
@@ -27,7 +32,7 @@
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .about {
         flex-direction: column-reverse;
         justify-content: center;
