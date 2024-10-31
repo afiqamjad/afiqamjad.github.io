@@ -1,11 +1,27 @@
 .about {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 100vh;
     background-color: #161515;
 }
 
-h1 {
+.aboutMe {
     color: #f2f0ef;
+    text-wrap:pretty;
+    width: 45%;
+    font-size:large;
+    text-shadow: -8px 5px rgb(0, 0, 0);
+}
+
+.profpic {
+    height: 25rem;
+    width: 20rem;
+    background-image: url('./images/DSCF3578-78-edited.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    border-radius: 47%;
+    box-shadow: -17px 20px 12px 2px rgb(0, 0, 0);
+
 }
