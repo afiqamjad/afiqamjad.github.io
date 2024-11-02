@@ -1,6 +1,5 @@
 import React from 'react';
 import './Intro.css'
-import Navbar from './Navbar.jsx';
 
 const Intro = () => {
     return (

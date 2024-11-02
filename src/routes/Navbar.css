@@ -14,7 +14,6 @@
 
 .navbar-right {
     display: flex;
-    padding: 1rem;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -35,6 +34,10 @@
 .link {
     margin: 1rem;
     font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    background-color: transparent;
+    outline: none;
+    border:none
 }
 
 a, a:focus, a:active {
@@ -45,6 +48,16 @@ a, a:focus, a:active {
 a:hover {
     text-decoration: none;
     color: #949392
+}
+
+button:focus{
+    color: darkgray;
+    outline: none;
+    border: none
+}
+
+button:hover{
+    border: none
 }
 
 @media screen and (max-width: 700px) {
