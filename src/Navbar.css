@@ -46,3 +46,9 @@ a:hover {
     text-decoration: none;
     color: #949392
 }
+
+@media screen and (max-width: 700px) {
+    .navbar {
+        position: absolute
+    }
+}
