@@ -4,6 +4,7 @@ import About from './About.jsx'
 import Projects from './Projects.jsx'
 import Intro from './Intro.jsx'
 import Navbar from './Navbar.jsx'
+import Contact from './Contact.jsx'
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       </div>
       <div id="projects">
         <Projects />
+      </div>
+      <div id="contact">
+        <Contact />
       </div>
     </>
   )
