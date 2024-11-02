@@ -37,17 +37,9 @@
     padding: 0;
     background-color: transparent;
     outline: none;
-    border:none
-}
-
-a, a:focus, a:active {
+    border:none;
+    color: #f2f0ef;
     text-decoration: none;
-    color: #f2f0ef
-}
-
-a:hover {
-    text-decoration: none;
-    color: #949392
 }
 
 button:focus{
