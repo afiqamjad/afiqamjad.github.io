@@ -23,7 +23,7 @@
 .profpic {
     height: 25rem;
     width: 20rem;
-    background-image: url('./src/images/DSCF3578-78-edited.jpg');
+    background-image: url('../images/DSCF3578-78-edited.jpg');
     background-size:cover;
     background-repeat:no-repeat;
     background-position: center;
