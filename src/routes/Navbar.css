@@ -29,7 +29,6 @@
     font-family: "Bebas Neue", sans-serif;
     font-size: xx-large;
     letter-spacing: 0.1rem;
-    text-decoration: none;
 }
 
 .link {
@@ -41,6 +40,16 @@
     border:none;
     color: #f2f0ef;
     text-decoration: none;
+}
+
+a, a:focus, a:active {
+    text-decoration: none;
+    color: #f2f0ef
+}
+
+a:hover {
+    text-decoration: none;
+    color: #949392
 }
 
 button:focus{
