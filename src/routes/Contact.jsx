@@ -29,7 +29,12 @@ const Contact = () => {
 
             </div>
             <div className="socmedContainer">
-
+                <h4>or check out my social media:</h4>
+                <div className="socmedIcons">
+                    <a href="https://www.facebook.com/afiq.khairir.50" target="_blank" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/afiqcaptures/" target="_blank" class="fa fa-instagram"></a>
+                    <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=afiqk@bu.edu&tf=1" target="_blank"class="fa fa-google"></a>
+                </div>
             </div>
             
         </div>
